@@ -1,0 +1,152 @@
+hr {
+    border-top: 3px solid;
+    border-radius: 15px;
+}
+div {
+    margin-bottom: 10px;
+}
+.flex-item {
+    font-family: "Droid Arabic Kufi";
+    text-align: center;
+    margin: 0px 10px;
+    flex-wrap: nowrap;
+}
+#sign-via div {
+    width: 245px;
+    max-height: 45px;
+    border-radius: 15px;
+    background: transparent;
+    border: 1px solid #88a4b8;
+    margin: 15px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: normal;
+    font-size: 18px;
+    color: #1f1f1f;
+
+}
+#sign-via div img {
+    width: 24.43px;
+    height: 24.43px;
+    background: transparent;
+}
+.or-via div {
+    width: 223px;
+    height: 0px;
+    background: transparent;
+    border: 0.4px solid #8d8d8d;
+    display: inline-block;
+
+}
+.hr-text {
+    line-height: 1em;
+    position: relative;
+    outline: 0;
+    border: 0;
+    text-align: center;
+    height: 1.5em;
+}
+.hr-text:before {
+    content: "";
+    background: #8d8d8d;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    width: 100%;
+    height: 0.4px;
+}
+.hr-text:after {
+    content: attr(data-content);
+    font-size: 14px;
+    font-weight: normal;
+    color: #8d8d8d;
+    position: relative;
+    display: inline-block;
+    padding: 0 0.5em;
+    line-height: 1.5em;
+    background-color: #fff;
+}
+.user-info li {
+    max-width: 270px;
+    width: 100%;
+    height: 29px;
+    list-style: none;
+    color: #cecece;
+    text-decoration: none;
+
+
+
+}
+.user-info li .current {
+    color: #1f1f1f;
+}
+.current hr {
+
+    color: #f57c00;
+    background-color: #f57c00;
+
+}
+.user-info li div.other-option hr {
+    background-color: #cecece;
+    color: #cecece;
+}
+.label {
+    height: 29px;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: right;
+    color: #1f1f1f;
+    margin-bottom: 10px;
+
+}
+.inputs {
+    width: 500px;
+    height: 50px;
+    border-radius: 15px;
+    background: #f2f2f2;
+    border-color: #f2f2f2;
+    padding-right: 10px;
+    color: #707070;
+    border-top: #f2f2f2;
+    border-left: #f2f2f2;
+    font-family: "Droid Arabic Kufi";
+
+}
+.fill-info .flex-item {
+    margin: 15px 5px;
+}
+.fill-info input {
+    width: 484px;
+    height: 50px;
+    border-radius: 15px;
+    background: #f2f2f2;
+    border-color: #f2f2f2;
+    padding-right: 10px;
+    color: #707070;
+    border-top: #f2f2f2;
+    border-left: #f2f2f2;
+
+}
+.btn .inputs {
+    background: #d7d9ee;
+    margin-top: 40px;
+    width: 487px;
+    height: 40px;
+    padding-top: 10px;
+
+}
+.btn .inputs a {
+    color: #303f9f;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+.sign-in a {
+    color: #f57c00;
+    text-decoration: none;
+}
+.content {
+    flex-shrink: .5rem;
+    flex-grow: 1rem;
+}

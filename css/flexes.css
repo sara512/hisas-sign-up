@@ -1,0 +1,34 @@
+#logo {
+    width: 93.49px;
+    height: 75px;
+    padding: 15px 210px;
+
+}
+.create-acc {
+    font-weight: bold;
+    font-size: 20px;
+    color: #000;
+}
+#sign-via {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.user-info {
+    display: flex;
+    direction: column;
+    line-height: 1.2rem;
+    font-weight: bold;
+    font-size: 18px;
+    color: #cecece;
+    margin-top: 10px;
+
+}
+.fill-info {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.sign-in {
+    font-size: 14px;
+}
